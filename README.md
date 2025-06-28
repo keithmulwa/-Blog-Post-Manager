@@ -1,5 +1,5 @@
 # Blog Post Manager
--A simple single-page application for managing blog posts with full CRUD functionality.
+-A simple single-page application for managing blog posts with full functionality.
 
 ## Author
 -Keith Mulwa
