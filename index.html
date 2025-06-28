@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Blog Manager</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h1>Simple Blog Manager</h1>
+    
+    <div class="container">
+        <div id="p-lst">
+            <h2>Posts</h2>
+           
+        </div>
+        
+        <div id="post-detail">
+            <h2>Post Details</h2>
+            <div id="p-cnt">
+                <p>Select a post to view details</p>
+            </div>
+            <button id="edit-post" class="hidden">Edit</button>
+            <button id="delete-post" class="hidden">Delete</button>
+        </div>
+    </div>
+    
+    <form id="new-post-form">
+        <h2>Add New Post</h2>
+        <input type="text" id="title" placeholder="Title" required>
+        <textarea id="content" placeholder="Content" required></textarea>
+        <input type="text" id="author" placeholder="Author" required>
+        <button type="submit">Create Post</button>
+    </form>
+
+    <script src="index.js"></script>
+</body>
+</html>
