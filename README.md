@@ -1,6 +1,9 @@
 # Blog Post Manager
 -A simple single-page application for managing blog posts with full CRUD functionality.
 
+## Author
+-Keith Mulwa
+
 ## Features
 -View Posts: See all blog posts in a sidebar list
 
